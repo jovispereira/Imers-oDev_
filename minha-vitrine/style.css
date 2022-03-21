@@ -3,17 +3,21 @@
 }
 
 header {
-	background-color: #84FFD3;
+	background-color: #ff6a4c;
 	text-align: center;
-	font-size: 24px;
+	font-size: 25px;
 	font-weight: 400;
-	color: #5C5C5C;
+	color: #FFFFFF;
 	padding: 1em;
+}
+
+.palavras {
+	color: #5C5C5C;
 }
 
 main {
 	text-align: center;
-	background-color: #BEB3F1;
+	background-color: #fcf3a9;
 	height: 100vh;
 }
 
@@ -28,7 +32,7 @@ figure {
 }
 
 section figure figcaption {
-	font-weight: 900;
+	font-weight: 400;
 	font-size: 25px;
 	color: #5C5C5C;
 	margin: 10px;
