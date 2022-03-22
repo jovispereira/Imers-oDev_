@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de Temperaturas ºC/ºF/K</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Conversor de temperaturas
+  </h1>
+  <p class="page-subtitle">
+    Descubra a temperatura desejada
+  </p>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+  <label for="moeda">Insira o valor</label><br>
+  <input type="number" id="valor" size="2" /><br>
+  <div class="buttons">
+    <button class="celsiusKelvin" type="submit" onclick="ConvertercK()">Celsius para Kelvin</button>
+    <button class="kelvinCelsius" type="submit" onclick="ConverterkC()">Kelvin para Celsius</button>
+    <button class="fahrenheitCelsius" type="submit" onclick="ConverterfC()">Fahrenheit para Celsius</button>
+    <p>
+      <button class="celsiusFahrenheit" type="submit" onclick="ConvertercF()">Celsius para Fahrenheit</button>
+      <button class="kelvinFahrenheit" type="submit" onclick="ConverterkF()">Kelvin para Fahrenheit </button>
+      <button class="fahrenheitKelvin" type="submit" onclick="ConverterfK()">Fahrenheit para Kelvin</button>
+    </p>
+    <h2 id="valorConvertido"></h2>
+  </div>
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

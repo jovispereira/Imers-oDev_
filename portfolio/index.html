@@ -1,22 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Portfólio</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
 <body>
-	<link rel="stylesheet" type="text/css" href="style.css">
+<!-- partial:index.partial.html -->
+<body class="claro">
 	<div class="container">
-		<header class="perfil">
-			<img class="perfil-foto" src="https://github.com/jovispereira.png" />
-			<div class="titulo">
-				<h1>João Vitor Pereira</h1>
-				<h3>Estudante de Sistemas de Informação e desenvolvedor front-end #imersaodev</h3>
+		<header class="cabecalho">
+			<div class="perfil">
+				<img class=" perfil-foto" src="https://github.com/jovispereira.png" />
+				<div class="titulo">
+					<h1>João Vitor Pereira</h1>
+					<h3>Estudante de Sistemas de Informação e desenvolvedor front-end #imersaodev</h3>
+				</div>
+				<div class="imagens-contato">
+					<a href="https://www.linkedin.com/in/jovispereira/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>
+					<a href="https://www.instagram.com/jovispereira/" target="_blank"><img src="https://cdn.pixabay.com/photo/2016/09/17/07/03/instagram-1675670_960_720.png"></a>
+					<a href="https://github.com/jovispereira" target="_blank"><img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png"></a>
+				</div>
+			</div>
+			<div class="tema">
+				<button onclick="mudarTema()">Alterar Tema</button>
 			</div>
 		</header>
-		<main class="projetos">
-			<ul>Projetos</ul>
-			<li><a href="https://codepen.io/jovispereira/pen/vYWwWrv">🔢 Calculadora de Média</a></li>
-			<li><a>Conversor de Moedas</a></li>
-			<li><a>Conversor de Temperaturas</a></li>
-			<li><a>Mentalista</a></li>
-			<li><a>Aluraflix</a></li>
-			<li><a>Tabela de Classificação</a></li>
-			<li><a>Super Trunfo</a></li>
+		<main class="portfolio">
+			<div class="projetos">
+				<ul class="projetos-titulo">Projetos</ul>
+
+				<li><a class="projetos-item" href="https://codepen.io/jovispereira/pen/vYWwWrv" target="_blank">🔢 Calculadora de Média</a>
+					<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="vYWwWrv" data-user="jovispereira" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+						<span>See the Pen <a href="https://codepen.io/jovispereira/pen/vYWwWrv">
+								Calculadora de Média</a> by João Vitor Pereira (<a href="https://codepen.io/jovispereira">@jovispereira</a>)
+							on <a href="https://codepen.io">CodePen</a>.</span>
+					</p>
+					<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+				</li><br><br>
+
+				<li><a class="projetos-item" href="https://codepen.io/jovispereira/pen/VwrJVNB" target="_blank">💲 Conversor de Moedas</a>
+					<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="VwrJVNB" data-user="jovispereira" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+						<span>See the Pen <a href="https://codepen.io/jovispereira/pen/VwrJVNB">
+								Conversor de Moedas</a> by João Vitor Pereira (<a href="https://codepen.io/jovispereira">@jovispereira</a>)
+							on <a href="https://codepen.io">CodePen</a>.</span>
+					</p>
+					<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+				</li><br><br>
+
+				<li><a class="projetos-item" href="https://codepen.io/jovispereira/pen/zYPQRWG" target="_blank">🌡️ Conversor de Temperaturas</a>
+					<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="zYPQRWG" data-user="jovispereira" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+						<span>See the Pen <a href="https://codepen.io/jovispereira/pen/zYPQRWG">
+								Conversor de Temperaturas ºC/ºF/K</a> by João Vitor Pereira (<a href="https://codepen.io/jovispereira">@jovispereira</a>)
+							on <a href="https://codepen.io">CodePen</a>.</span>
+					</p>
+					<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+				</li><br><br>
+
+				<li><a class="projetos-item" href="https://codepen.io/jovispereira/pen/bGYXvVj" target="_blank">🔮 Mentalista</a>
+					<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="bGYXvVj" data-user="jovispereira" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+						<span>See the Pen <a href="https://codepen.io/jovispereira/pen/bGYXvVj">
+								Mentalista </a> by João Vitor Pereira (<a href="https://codepen.io/jovispereira">@jovispereira</a>)
+							on <a href="https://codepen.io">CodePen</a>.</span>
+					</p>
+					<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+				</li><br><br>
+
+				<li><a class="projetos-item" href="https://codepen.io/jovispereira/pen/YzYPOje" target="_blank">🎥 Aluraflix</a>
+					<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="YzYPOje" data-user="jovispereira" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+						<span>See the Pen <a href="https://codepen.io/jovispereira/pen/YzYPOje">
+								AluraFlix v2</a> by João Vitor Pereira (<a href="https://codepen.io/jovispereira">@jovispereira</a>)
+							on <a href="https://codepen.io">CodePen</a>.</span>
+					</p>
+					<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+				</li><br><br>
+
+				<li><a class="projetos-item" href="https://codepen.io/jovispereira/pen/ExoVwom" target="_blank">🏆 Tabela de Classificação</a>
+					<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="ExoVwom" data-user="jovispereira" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+						<span>See the Pen <a href="https://codepen.io/jovispereira/pen/ExoVwom">
+								Tabela de classificação</a> by João Vitor Pereira (<a href="https://codepen.io/jovispereira">@jovispereira</a>)
+							on <a href="https://codepen.io">CodePen</a>.</span>
+					</p>
+					<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+				</li><br><br>
+
+				<li><a class="projetos-item" href="https://codepen.io/jovispereira/pen/jOYqWPw" target="_blank">🃏 Super Trunfo</a>
+					<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="jOYqWPw" data-user="jovispereira" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+						<span>See the Pen <a href="https://codepen.io/jovispereira/pen/jOYqWPw">
+								Super Trunfo v2</a> by João Vitor Pereira (<a href="https://codepen.io/jovispereira">@jovispereira</a>)
+							on <a href="https://codepen.io">CodePen</a>.</span>
+					</p>
+					<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+				</li><br><br>
+
+			</div>
+
+			<div class="conquistas">
+				<ul class="conquistas-titulo">Conquistas</ul>
+				<li><img src="https://media.discordapp.net/attachments/826504749561413662/876882280377897041/Aula_1_-_Media.png?width=461&height=461"></li><br><br><br>
+				<li><img src="https://media.discordapp.net/attachments/826504749561413662/876882993124372571/Aula_9_-_HTML_e_CSS.png?width=461&height=461"></li><br><br><br>
+				<li><img src="https://media.discordapp.net/attachments/826504749561413662/876883011268902962/Dia_2_-_Calculadora.png?width=425&height=425"></li><br><br><br>
+				<li><img src="https://cdn.discordapp.com/attachments/955583147272183828/955583394216030278/Dia_3_-_Mentalista.png"></li><br><br><br>
+				<li><img src="https://cdn.discordapp.com/attachments/955583147272183828/955583408191442984/Dia_4_e_5_-_Aluraflix.png"></li><br><br><br>
+				<li><img src="https://cdn.discordapp.com/attachments/955583147272183828/955583420459790346/Dia_6_-_Placar.png"></li><br><br><br>
+				<li><img src="https://cdn.discordapp.com/attachments/955583147272183828/955583436784041994/Dia_7_e_8_-_Super_Trunfo.png"></li>
+			</div>
+
 		</main>
 	</div>
 </body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

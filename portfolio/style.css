@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-body {
-	background: linear-gradient(236.85deg, #00542a 27.26%, #2c9460 96.03%);
+.claro {
+	background: linear-gradient(236.85deg, #002613 27.26%, #2c9460 96.03%);
+	background-repeat: no-repeat;
+	box-sizing: border-box;
 	font-family: "Roboto", sans-serif;
+}
+
+.escuro {
+	background: linear-gradient(236.85deg, #1b593a 27.26%, #8affa9 96.03%);
+	background-repeat: no-repeat;
+	box-sizing: border-box;
 }
 
 .container {
@@ -14,9 +22,13 @@ body {
 	padding: 64px;
 }
 
+.cabecalho {
+	display: flex;
+	justify-content: space-between;
+}
+
 .perfil {
 	display: flex;
-	align-items: center;
 }
 
 .perfil-foto {
@@ -39,8 +51,106 @@ body {
 	font-size: 24px;
 }
 
+.imagens-contato {
+	display: flex;
+	margin: 10px 0 0 250px;
+}
+
+.imagens-contato img {
+	height: 40px;
+	border-radius: 30px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.tema button {
+	align-self: flex-end;
+	font-weight: 400;
+	font-size: 24px;
+	padding: 8px 16px;
+	background: #1c1c1c;
+	border-radius: 100px;
+	color: #ffffff;
+	border: 2px solid #f7f7f7;
+}
+
+.portfolio {
+	margin-top: 64px;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 16px;
+}
+
 .projetos {
 	display: flex;
 	flex-direction: column;
+	background: linear-gradient(236.85deg, #268c59 27.26%, #82ffc1 96.03%);
+	margin: 32px 0 32px 0;
+	padding: 8px 32px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+	list-style-type: none;
+}
+
+.projetos-titulo {
+	font-weight: 700;
+	font-size: 36px;
+	list-style-type: none;
+}
+
+.projetos-item {
+	list-style-type: none;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.projetos a {
+	color: #1c1c1c;
+	text-decoration: none;
+}
+
+.escuro .container {
+	background: #333439;
+	color: #f7f7f7;
+}
+
+.escuro .projetos {
+	color: #1c1c1c;
+}
+
+.escuro .tema button {
+	background: #ecf4ff;
+	color: #0e1d2f;
+	border: 2px solid #0e1d2f;
+}
+
+.conquistas {
+	display: flex;
+	flex-direction: column;
 	align-items: center;
+	margin: 32px 0 32px 0;
+	padding: 8px 32px;
+	background: linear-gradient(236.85deg, #268c59 27.26%, #82ffc1 96.03%);
+	border-radius: 20px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.conquistas-titulo {
+	list-style: none;
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.conquistas ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.conquistas li {
+	list-style-type: none;
+}
+
+.conquistas img {
+	max-height: 100px;
 }

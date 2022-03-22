@@ -1,18 +1,33 @@
-<link rel="stylesheet" type="text/css" href="style.css">
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de Moedas</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
 <div class="container">
   <h1 class="page-title">
-    Conversor de Moedas
+    Conversor de moedas
   </h1>
   <p class="page-subtitle">
-    Descubra os valores em Real (R$) ou em Euro (€) </p>
+    Descubra os valores usando o real R$
+  </p>
   <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
-  <label for="moeda">Insira o valor em Dólar (U$):</label><br>
+  <label for="moeda">Insira o valor em reais R$</label><br>
   <input type="number" id="valor" size="2" /><br>
-  <button type="submit" onclick="converterEmReal()">Converter R$</button>
-  <button type="submit" onclick="converterEmEuro()">Converter €</button>
+  <button type="submit" onclick="ConverterUSD()">Converter para Dolár (USD)</button>
+  <button type="submit" onclick="ConverterEUR()">Converter para Euro (EUR)</button>
+  <button type="submit" onclick="ConverterJPY()">Converter para Iene (JPY)</button>
   <h2 id="valorConvertido"></h2>
-  <h3 id="valorEmBitCoin"></h3>
+  <h2 id="valorBitcoin"></h2>
 </div>
-<script type="text/javascript" src="app.js"></script>
 <a href="https://alura.com.br/" target="_blank">
   <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

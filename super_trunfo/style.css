@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto Mono", monospace;
   min-height: 854px;
-  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png");
+  background-image: url("https://giffiles.alphacoders.com/168/168285.gif");
   background-color: #000000;
   background-size: cover;
   background-position: center top;
@@ -12,6 +12,37 @@ body {
 .container {
   text-align: center;
   padding: 20px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  color: white;
+  padding: 0px 5px;
+  margin-left: 5px;
+  border: 1px solid white;
+  border-radius: 400px;
+}
+
+.info .info-texto {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 2px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.info:hover .info-texto {
+  visibility: visible;
 }
 
 .page-title {
@@ -33,7 +64,7 @@ h2 {
 }
 
 #carta-jogador,
-#carta-maquina {
+#carta-computador {
   width: 360px;
   height: 500px;
   overflow: auto;
@@ -80,7 +111,7 @@ h2 {
   color: white;
   font-size: 2rem;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weigth: bolder;
   padding: 1rem;
   border: 2px solid black;
   background-color: black;
@@ -118,4 +149,18 @@ form {
 
 .carta-status p {
   margin-bottom: 2rem;
+}
+
+.numero-cartas {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+}
+
+.numero-cartas p {
+  margin: 0px 65px;
+  padding: 5px 10px;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 1);
 }

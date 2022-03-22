@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto Mono", monospace;
   text-align: center;
-  background-image: url("https://i.imgur.com/IMLo9hO.png");
+  background-image: url("https://cinemacao.com/wp-content/uploads/2015/05/shutter-capa.jpg");
   background-color: #000000;
   background-size: cover;
   background-position: center top;
@@ -9,8 +9,15 @@ body {
 }
 
 .container {
-  text-align: center;
+  background-color: #000000aa;
+  border: 3px solid red;
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  margin-left: 30px;
   padding: 20px;
+  justify-content: start;
+  width: 16%;
 }
 
 .page-title {
@@ -34,9 +41,34 @@ body {
   right: 10px;
 }
 
-#listaFilmes img {
-  margin: 15px;
+#containerListaFilmes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 88%;
+  margin: 0 auto;
+}
+
+.listaFilmes {
+  width: 20%;
+  margin: 0 2%;
+}
+
+.listaFilmes img {
+  margin: 10px;
+  margin-bottom: 0;
   max-height: 250px;
+  font-size: 20px;
+}
+
+.listaFilmes p {
+  font-size: 40px;
+  font-weight: bold;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  -webkit-text-fill-color: white;
+  text-align: center;
+  margin: 10px 0 0 0;
 }
 
 .form-wrapper {
@@ -47,6 +79,7 @@ body {
   display: block;
   margin: 0 auto;
   padding: 10px 15px;
+  margin-top: 10px;
 }
 
 .form-wrapper button {
@@ -63,36 +96,5 @@ body {
 }
 
 .form-wrapper button:hover {
-  opacity: 0.8;
-}
-
-.listaNomes {
-  color: red;
-  margin: 0 15px;
-  font-size: 20px;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: #000;
-  -webkit-text-fill-color: #ffffff;
-}
-
-.remover input {
-  vertical-align: middle;
-  padding: 10px 15px;
-}
-
-.remover button {
-  border: 0;
-  color: #ffffff;
-  background: #da1e26;
-  font-weight: bold;
-  padding: 15px 20px;
-  font-size: 16px;
-  border-radius: 4px;
-  margin-top: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.remover button:hover {
   opacity: 0.8;
 }

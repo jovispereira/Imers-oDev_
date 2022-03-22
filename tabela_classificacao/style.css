@@ -1,15 +1,17 @@
 * {
   text-align: center;
+  border-radius: 10px;
+  margin: 5px 0px 0px;
 }
 
 body {
   font-family: "Roboto Mono", monospace;
   min-height: 50em;
-  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9bc27292880429.5e569ff84e4d0.gif");
+  background-image: url("https://c.tenor.com/_EYOsX_1CUkAAAAC/pixel-night.gif");
   background-color: #111;
   background-size: cover;
-  background-position: top;
   background-repeat: no-repeat;
+  background-position: top;
 }
 
 .container {
@@ -41,7 +43,6 @@ body {
 
 table {
   border: 2px solid white;
-  border-collapse: collapse;
 }
 
 h1 {
@@ -51,6 +52,79 @@ h1 {
 th,
 tr,
 td {
-  border: solid 1px white;
+  border: solid 2px white;
+  color: #00ff00;
+  font-size: 20px;
+  width: 10%;
+}
+
+tr {
+  color: red;
+}
+
+button {
+  font-size: 17px;
+}
+
+input::placeholder {
   color: white;
+}
+
+.aplicacao {
+  font-size: 16px;
+  border: solid 2px white;
+  border-radius: 10px;
+  font-weight: 700;
+  background: inherit;
+  margin: 5px 0px 0px 0px;
+  padding: 10px 0px 5px 0px;
+  color: white;
+}
+
+.estilizandoBotao {
+  font-size: 16px;
+  border: solid 2px white;
+  border-radius: 10px;
+  color: #00ff00;
+  font-weight: 700;
+  background: inherit;
+  margin: 5px 5px 5px 15px;
+  padding: 7px 10px 5px 10px;
+}
+
+.imgEstilizar {
+  width: 60px;
+  max-height: 100%;
+  border: solid 1px white;
+  border-radius: 5em;
+  margin: 10px 1px 1px 1px;
+}
+
+.estil {
+  font-size: 25px;
+}
+
+.zera1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.zera2 {
+  border: solid 2px white;
+  border-radius: 10px;
+  color: #00ff00;
+  font-weight: 700;
+  background: inherit;
+  margin: 5px;
+  padding: 7px 10px 5px 10px;
+}
+
+.zera3 {
+  border: solid 2px white;
+  border-radius: 10px;
+  color: #00ff00;
+  font-weight: 700;
+  background: inherit;
+  margin: 5px;
+  padding: 7px 10px 5px 10px;
 }
